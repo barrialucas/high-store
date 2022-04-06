@@ -11,7 +11,7 @@ export const Lentes =({id, marca,modelo,precio,color,img,hover})=>{
                                 <h5 className="color d-flex justify-content-center">{color}</h5>
                                 <h5 className="precio card-text d-flex justify-content-center"><span className="precioHtml">${precio}</span></h5>
                                 <div className="d-flex justify-content-center">
-                                    <a class="card-btn d-flex justify-content-center" href={mensaje}>Contactarse</a>
+                                    <a class="card-btn d-flex justify-content-center" href={mensaje} target="_blank">Contactarse</a>
                                 </div>
                             </div>
     )
