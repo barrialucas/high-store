@@ -1,0 +1,599 @@
+@media (min-width: 1400px) and (max-width:1800px) {
+    #home{
+        .home__fondo1{
+            height: 800px;
+        }
+        .texto__home{
+            h4{
+                margin-right: 50px;
+            }
+        }
+        .seccion2{
+            .texto__north{
+                h4{
+                    margin-right:20px;
+                }
+            }
+        }
+        .seccion3{
+            
+            .texto__sillas{
+                h4{           
+                    margin-right:290px;
+                }
+            }
+        }
+    }
+
+    footer .footer .footer__derecha .high a{
+        font-size: 23px;
+    }
+    footer .footer .footer__derecha .whats a{
+        font-size: 23px;
+    }
+    footer .footer .medios__segunda{
+        margin-top: 90px;
+    }
+    header .li__items {
+        span{
+            text-decoration:underline #00382F;
+        }
+    }
+
+    #camperas{
+        .camp{
+            font-size: 27px;
+        }
+
+    }
+}
+
+
+
+@media (min-width: 1201px) and (max-width: 1399px) {
+    #home{
+        .home__fondo1{
+            height: 700px;
+            width: 100%;
+            margin-top: 150px;
+        }
+        .texto__home{
+            margin-top: 250px;
+            h2{
+                font-size: 70px;
+            }
+            h4{
+                margin-right: auto;
+                font-size: 20px
+            }
+        }
+        .seccion2{
+            .texto__north{
+                margin-bottom: 170px;
+                h2{
+                    color: $negro;
+                    font-family: $monse;
+                    font-size: 80px;
+                    font-weight: 800;
+                }
+                h4{
+                    font-family: $monse;
+                    color: rgb(255, 255, 255);
+                    font-weight: 500;
+                    background-color: #32333369;
+                    margin-right:auto;
+                    border-radius: 10px;
+                    padding: 10px 10px;
+                }
+            }
+        }
+        .seccion3{
+            .texto__sillas{
+                h4{
+                    margin-right:auto;
+                }
+            }   
+        }
+    }
+
+
+    #anteojos{
+        .items{
+            .cards{
+                width: 300px;
+            }
+        }
+    }
+    #camperas .product-category{
+        font-size: 26px;
+    }  
+    
+
+    footer{
+        .footer{
+            .medios__segunda{
+                margin-top: 90px;
+            }
+            
+            .footer__derecha{
+                img{
+                    margin: 0px 0px;
+                    width: auto;
+                }
+                .high{
+                    a{
+                        font-size: 20px;
+                        margin-top: 5px;
+                    }
+                }
+                .whats{
+                    a{
+                        font-size: 20px;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+    footer .footer .footer__derecha img{
+        width: 200px;
+    }
+}
+
+
+@media (min-width: 993px) and (max-width: 1199px){
+    #home{
+        .home__fondo1{
+            height: 600px;
+            margin-top: 180px;
+        }
+        .texto__home{
+            margin-top: 250px;
+                h4{
+                    margin: auto;
+                    text-align: center;
+                }
+        }
+        .seccion2{
+            .texto__north{
+                margin-top: 40px;
+                h2{
+                    font-size: 63px;
+                }
+                h4{
+                   font-size: 20px;
+                   text-align: center;
+                   margin: 2px;
+                }
+            }
+        }
+        .seccion3{
+            .texto__sillas{
+                h2{
+                    font-size: 63px;
+                }
+                h4{
+                   font-size: 20px;
+                   margin-right: 200px;
+                } 
+            }
+            
+        }
+        
+    }
+    #camperas .product-category{
+        font-size: 23px;
+        text-align: center;
+        flex-direction: column;
+    } 
+
+    footer{
+    .get{
+        width: 130px;
+        margin-top: 10px;
+    }
+    .usdtmedia{
+        margin-top: 10px;
+        img{
+            width: 30px;
+        }
+        h3{
+            font-size: 25px;
+        }
+    }
+    .footer .medios__segunda{
+        margin-top: 79px;
+    }
+    .primer__renglon{
+        font-size: 22px;
+    }
+        .footer{
+            .footer__derecha{
+                img{
+                    width: 190px;
+                }
+                
+                .high{
+                    a{
+                        font-size: 22px;
+                    }
+                }
+                .whats{
+                    a{
+                        font-size: 26px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px){
+    #home{
+        .home__fondo1{
+            margin-top: 180px;
+            height: 400px;
+        }
+        .texto__home{
+            margin-top: 200px;
+            h2{
+                font-size: 55px;
+            }
+            h4{
+                font-size: 20px;
+                margin: auto;
+            }
+            a{
+                font-size: 20px;
+            }
+        }
+
+        .seccion2{margin-top: 50px;
+            height: 400px;
+            .texto__north{
+                margin-top: 50px;
+                h2{
+                    font-size: 55px;
+                }
+                h4{
+                    font-size: 20px;
+                    text-align: center;
+                    margin-right: 70px;
+                }
+                a{
+                    font-size: 20px;
+                    
+                }
+            }
+            .north1{
+                height: 360px;
+                background-position-x: center;
+            }
+            .north2{
+                height: 360px;
+                background-position-x: center;
+            }
+        }
+        .seccion3{
+            .texto__sillas{
+                h2{
+                    font-size: 55px;
+                }
+                h4{
+                    font-size: 20px;
+                    margin-right: 170px;
+                }
+                a{
+                    font-size: 20px;
+                    
+                }
+            }
+        }
+    }
+    #camperas .fondo__camperas{
+        margin-top: 200px;
+    }
+    #camperas .product-category{
+        font-size: 25px;
+        flex-direction: column;
+        align-items:center;
+    } 
+    .pedidos__texto h3{
+        font-size: 60px;
+    }
+    footer{
+        .footer{
+            .footer__derecha{
+                img{
+                    margin: auto;
+                }
+                .high{
+                    a{
+                        font-size: 16px;
+                    
+                    }
+                }
+                .whats{
+                    a{
+                        font-size: 20px;
+                        
+                    }
+                }
+            }
+        }
+    }
+
+    #anteojos{
+        .fondo__lentes{
+          margin-top: 200px;
+          margin-bottom: 20px;
+        }
+    }
+}
+
+@media (min-width: 0px) and (max-width: 575px){
+    header{
+        .navbar{
+            display: flex;
+            justify-content: center;
+        }
+        .titulo__marca{
+            padding: 0px 0px;
+        }
+        .li__items{
+            margin-bottom: 10px;
+            span{
+                text-decoration:underline #00382F;
+                letter-spacing: 0px;
+                padding: 10px 10px;
+            }
+        }
+        .nav_acomodo{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    #home{
+        .home__fondo1{
+            margin-top: 200px;
+            height: 250px;
+            width: 100%;
+            background-position: center;
+        }
+        .texto__home{
+            margin-top: 250px;
+                h2{
+                    font-size: 60px;
+                    color: $negro;
+                    text-shadow:4px 4px 4px rgba(143, 143, 143, 0.685) ;
+                }
+                h4{
+                    font-size: 20px;
+                    margin-right: 40px;
+                }
+        }
+        .seccion2{
+            margin-top: 300px;
+            height: 500px;
+            .texto__north{
+                order: 3;
+                h2{
+                    font-size: 50px;
+                }
+                h4{
+                    font-size: 20px;
+                    margin-right: 40px;
+                }
+                
+            }
+            .fotos__north{
+                margin-top: 30px;
+                .north1{
+                    height: 250px;
+                }
+                .north2{
+                    height: 250px;
+                }
+                order: 2;
+            }
+        }
+        .seccion3{
+            margin-top: 100px;
+            height: 500px;
+            .silla1{
+                height: 250px;
+            }
+            .silla2{
+                background-position: 30%;
+                height: 250px;
+            }
+            .texto__sillas{
+                h2{
+                    font-size: 40px;
+                }
+                h4{
+                    font-size: 20px;
+                    margin-right: 190px;
+                }
+                
+            }
+        }
+    }
+    #anteojos{
+        .fondo__lentes{
+            margin-top: 220px;
+            margin-bottom: 10px;
+                h2{
+                    text-align: center;
+                    margin: auto;
+                    font-size: 50px;
+                }
+        }
+
+        .conocer{
+            .conocer__row{
+                display: flex;
+                flex-direction: column;
+                h3{
+                    font-size: 20px;
+                    text-align: center;
+                    margin-top: 50px;
+                    margin-bottom: 0px;
+                    
+                }
+                a{
+                    margin-bottom: 30px;
+                }
+                a button{
+                    font-size: 20px;
+                }
+            }
+            
+        }
+        .stock{
+            h3{
+                font-size: 22px;
+                text-align: center;
+            }
+            .fa-angle-down{
+                height: 30px;
+            }
+        }
+    }
+
+    #camperas{
+        .fondo__camperas{
+            margin-top: 220px;
+            margin-bottom: 10px;
+            h2{
+                font-size: 40px;
+                padding-top: 70px;
+                margin-left: 20px;
+            }
+        }
+        .pedidos h4{
+            margin-top: 120px;
+            display: flex;
+            justify-content: center;
+         }
+        
+        .pedidos__texto h3{
+            font-size: 30px;
+            margin-bottom: -100px;
+            
+        }
+        .camp{
+            font-size: 25px;
+            font-weight: 600;
+        }
+        .product-category{
+            font-size: 20px;
+            text-align: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        .medidas-sincapucha .medida1 h3{
+            font-size: 16px;
+        }
+        .medidas-sincapucha .medida2 h3{
+            font-size: 16px;
+        }
+        .medidas-capucha .medida1 h3{
+            font-size: 16px;
+        }
+        .medidas-capucha .medida2 h3{
+            font-size: 16px;
+        }
+    }
+    
+    
+
+
+    //SILLAS--------------------------------------
+    .fondo__silla{
+        margin-top: 220px;
+            margin-bottom: 10px;
+                h2{
+                    text-align: center;
+                    padding-top: 70px;
+                    margin-left: auto;
+                    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.685);
+                    font-size: 40px;
+                    
+                }
+    }
+
+    .pedidos__texto h3{
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 0px;
+        margin-top: 20px;
+        text-decoration: underline 4px $violet;
+    }
+
+
+    footer{
+        height: 600px;
+        .ultimo{
+            margin-top: -60px;
+        }
+        .footer{
+            .medio__texto{
+                font-size: 25px;
+                text-align: center;
+            }
+            .titulo__pago{
+                margin-bottom: 50px;
+            }
+            .primer__renglon{
+                font-size: 19px;
+                text-align: center;
+            }
+            .get{
+                width: 200px;
+            }
+            .medios__segunda{
+                margin-top: 10px;
+            }
+            .usdtmedia{
+                img{
+                    width: 40px;
+                    margin-top: 5px;
+                }
+            }
+            
+            .footer__derecha{
+                .footer__iconos{
+                    padding-left: 50px;
+                }
+                
+                img{
+                    width: 100px;
+                    margin: auto;
+                }
+                .high{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    a{
+                        font-size: 15px;
+                    }
+                }
+                .whats{
+                    
+                        .texto-wsp{
+                            font-size: 15px;
+                            margin-top: 7px;
+                        }
+                }
+            }
+        }
+        
+        .footer__derechos{display: none;
+            h4{
+                font-size: 18px;
+            }
+        }
+    }
+
+}

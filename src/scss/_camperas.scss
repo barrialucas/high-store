@@ -1,0 +1,84 @@
+#camperas{
+  
+  .item{
+    height: 24rem;
+    max-width: 30rem;
+    padding: 1rem;
+    margin-bottom: 40px;
+  }
+  .item img{
+    height: 350px;
+    width: 300px;
+    pointer-events: none;
+
+  }
+  .slider{
+    display: flex;
+    cursor: grab;
+  }
+  .slider-container{
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+
+
+  .camp{
+    text-decoration: underline $violet;
+  }
+  .product-category {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+    font-family: $monse;
+  }
+
+  
+    .fondo__camperas{
+     height: 200px;
+     background-image: url(../img/fondos/northface-min.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position-y:86%;
+     border-radius: 20px;
+     margin: 150px 20px;
+     margin-bottom: 100px;
+         h2{
+             padding-top: 60px;
+             color: $blanco;
+             font-size: 70px;
+             font-family: $monse;
+             font-weight: 800;
+             margin-left: 40px;
+             text-decoration:overline;
+         }
+    }
+    .medidas-capucha,.medidas-sincapucha{
+      margin-bottom: 160px;
+         .medida1{
+           img{
+             height: 100%;
+             width: 100%;
+           }
+           h3{
+             font-family: $monse;
+             font-size: 24px;
+           }
+         }
+         .medida2{
+           img{
+             height: 100%;
+             width: 100%;
+           }
+           h3{
+             font-family: $monse;
+             font-size: 24px;
+           }
+         }
+    }
+ 
+   
+ }
+
+ 
+ 

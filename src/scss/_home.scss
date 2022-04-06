@@ -1,0 +1,168 @@
+#home{
+    .home__fondo1{
+        background-image: url(../img/fondos/fondo1.webp);
+        height: 1000px;
+        width: 100%;
+        border-radius: 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .texto__home{
+        margin-top:440px;
+        h2{
+            color: $blanco;
+            font-family: $monse;
+            font-size: 90px;
+            font-weight: 800;
+            text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.685);
+        }
+        h4{
+            font-family: $monse;
+            color: whitesmoke;
+            font-weight: 500;
+            background-color: #32333369;
+            margin-right: 240px;
+            border-radius: 10px;
+            padding: 10px 10px;
+            
+        }
+        a{
+            text-decoration: none;
+            color: #323333;
+            font-size: 24px;
+            font-family: $monse;
+            font-weight: 800;
+            border:2px black;
+            margin-left: 10px;
+            cursor: pointer;
+            text-decoration: underline $violet 5px;
+        }
+        a:hover{
+            transform: scale(0.90);
+            transition: 0.5s;
+            color: #BF3585;
+        }
+    }
+
+    .seccion2{
+        margin-top: 100px;
+        height: 600px;
+        .north1{
+            height: 420px;
+            width: 420px;
+            background-image: url(../img/fondos/north1-min.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+        .north2{
+            height: 420px;
+            width: 280px;
+            background-image: url(../img/fondos/north2-min.jpg);
+            background-size: cover;
+            margin-left: 20px;
+            border-radius: 10px;
+            background-repeat: no-repeat;
+
+        }
+        .texto__north{
+            margin-bottom: 170px;
+            h2{
+                color: $negro;
+                font-family: $monse;
+                font-size: 90px;
+                font-weight: 800;
+            }
+            h4{
+                font-family: $monse;
+                color: rgb(255, 255, 255);
+                font-weight: 500;
+                background-color: #32333369;
+                margin-right: 200px;
+                border-radius: 10px;
+                padding: 10px 10px;
+            }
+            a{
+                text-decoration: none;
+                color: #323333;
+                font-size: 24px;
+                font-family: $monse;
+                font-weight: 800;
+                border:2px black;
+                margin-left: 10px;
+                cursor: pointer;
+                text-decoration: underline $violet 5px;
+            }
+            a:hover{
+                transform: scale(0.90);
+                transition: 0.5s;
+                color: #BF3585;
+            }
+
+        }
+        
+    }
+    .seccion3{
+        background-color: #e4dad23d;
+        height: 600px;
+        .texto__sillas{
+            margin-bottom: 10px;
+            h2{
+                color: $negro;
+                font-family: $monse;
+                font-size: 90px;
+                font-weight: 800;
+            }
+            h4{
+                font-family: $monse;
+                color: rgb(255, 255, 255);
+                font-weight: 500;
+                background-color: #32333369;
+                border-radius: 10px;
+                padding: 10px 10px;
+                margin-right: 430px;
+            }
+            a{
+                text-decoration: none;
+                color: #323333;
+                font-size: 24px;
+                font-family: $monse;
+                font-weight: 800;
+                border:2px black;
+                margin-left: 10px;
+                cursor: pointer;
+                text-decoration: underline $violet 5px;
+            }
+            a:hover{
+                transform: scale(0.90);
+                transition: 0.5s;
+                color: #BF3585;
+            }
+        }
+        .silla1{
+            height: 420px;
+            width: 420px;
+            background-image: url(../img/fondos/silla2-min.png);
+            background-position:50%;
+            background-size: cover;
+            background-repeat:no-repeat;
+            margin-left: 20px;
+            border-radius: 10px;
+        }
+        .silla2{
+            height: 420px;
+            width: 280px;
+            background-image: url(../img/fondos/silla3-min.png);
+            background-size: cover;
+            margin-right: 20px;
+            border-radius: 10px;
+            background-repeat: no-repeat;
+            border:#323333 10px;
+
+        }
+        
+    }
+
+}
+

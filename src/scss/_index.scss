@@ -1,0 +1,154 @@
+
+header {
+    background-color: #00382F;
+    width: 100%;
+    box-shadow: 3px 7px 30px 10px #8888887a;
+
+    .logo{
+        margin-top: 10px;
+    }
+    
+    .li__items {
+        margin: 0px 0px;
+        
+        span {
+            padding: 15px 20px;
+            font-family: $monse;
+            color: $blanco;
+            font-weight: 400;
+            font-size: 22px;
+            letter-spacing: 4px;
+            cursor: pointer;
+            
+        }
+        span:hover{
+            color: #FF9900;
+        }
+    }
+
+    .fa-instagram{
+        height: 40px;
+        color:$blanco;
+        cursor: pointer;
+    }
+    .fa-instagram:hover{
+        transform: scale(0.90);
+        transition: 0.5s;
+    }
+    .fa-whatsapp{
+        margin-left: 20px;
+        height: 40px;
+        color: $blanco;
+        cursor: pointer;
+    }
+    .fa-whatsapp:hover{
+        transform: scale(0.90);
+        transition: 0.5s;
+    }   
+}
+
+
+
+footer{
+    margin-top: 150px;
+    background-color: #00382F
+    ;
+    .footer__derechos{
+        h4{
+            font-family: $monse;
+            font-size: 22px;
+            text-align: center;
+            color: whitesmoke;
+            font-weight: 200;
+        }
+    }
+        .footer{
+            height: 400px;
+            .titulo__pago{
+                margin-bottom: 50px;
+            }
+            .primer__renglon{
+                margin-bottom: 22px;
+                color: $blanco;
+            }
+            .usdtmedia{
+                margin-top: 10px;
+            }
+            .usdt{
+                color: $blanco;
+                margin-left: 20PX;
+            }
+            .medios__segunda{
+                margin-top: 60px;
+            }
+            .mercadopago{
+                margin-top: 20px;
+            }
+            .footer__derecha{
+                margin-top: 100px;
+                img{
+                    width: 200px;
+                    margin-right: 50px;
+                }
+                .fa-instagram{
+                    height: 40px;
+                    color:$blanco;
+                    cursor: pointer;
+                }
+                .fa-instagram:hover{
+                    transform: scale(1.2);
+                    transition: 0.5s;
+                }
+                .fa-whatsapp{
+                    height: 40px;
+                    color: $blanco;
+                    cursor: pointer;
+                }
+                .fa-whatsapp:hover{
+                    transform: scale(1.2);
+                    transition: 0.5s;
+                }
+                .whats{
+                    margin-top: 20px;
+                    a{
+                        margin-left: 10px;
+                        font-size: 30px;
+                        font-family: $monse;
+                        color: white;
+                        cursor: pointer;
+                        font-weight: 500;
+                        text-decoration: none;
+                    }
+                
+                } 
+                .high{
+                    a{
+                        margin-left: 10px;
+                        font-size: 30px;
+                        font-family: $monse;
+                        color: white;
+                        cursor: pointer;
+                        font-weight: 500;
+                        text-decoration: none;
+                    }
+                }
+            }
+            .medio__texto{
+                font-size: 30px;
+                font-family: $monse;
+                color: white;
+                margin-top: 50px;
+            }
+            .medios__img{
+                margin-top: 40px;
+                img{
+                    height: 40px;
+                    margin: 20px 0px;
+                }
+                h3{
+                    margin: 20px 0px;
+                }
+            }
+            
+        }
+}
