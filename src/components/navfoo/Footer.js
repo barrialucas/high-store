@@ -27,7 +27,7 @@ export const Footer=()=>{
                         <img src={mercadopago} alt="" width="220px" class="mercadopago" className="get"/> 
                     </div>
                     <div className="col-12 col-lg-5 col-xxl-5 d-flex  flex-column medios__segunda">
-                        <img className="primer__renglon" src="https://www.lemon.me/_next/static/media/logo.a45bf621.svg" alt="" width="300px" className="get"/>
+                        <img className="primer__renglon get" src="https://www.lemon.me/_next/static/media/logo.a45bf621.svg" alt="" width="300px" />
                         <div className="d-flex flex-row align-items-center usdtmedia">
                             <img src={usdt} alt="" width="54px"/>
                             <h3 className="usdt">USDT</h3>
