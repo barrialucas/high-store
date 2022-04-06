@@ -20,10 +20,9 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
 
-
-        <Route path="productos/rayban" element={<ItemsContainer/>}/>
-        <Route path="productos/camperas" element={<Camperas/>}/>
-        <Route path="productos/sillas" element={<Sillas/>}/>
+        <Route path="/rayban" element={<ItemsContainer/>}/>
+        <Route path="/camperas" element={<Camperas/>}/>
+        <Route path="/sillas" element={<Sillas/>}/>
 
       </Routes>
 
