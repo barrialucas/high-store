@@ -25,7 +25,7 @@ export const Home=()=>{
                 <div className="col-12 col-md-5 col-lg-4 col-xl-4 col-xxl-4 d-flex  justify-content-center flex-column texto__north">
                     <h2>Camperas</h2>
                     <h4>Nuestras camperas Northface</h4>
-                    <Link to="/camperas"><span>Ver más</span></Link><hr/>
+                    <Link to="/northface"><span>Ver más</span></Link><hr/>
                 </div>
                 <div className="col-md-1 col-lg-1 col-xl-1 col-xxl-1"></div>
                 <div className="col-12 col-md-6 col-lg-7 col-xl-6 col-xxl-5 d-flex  justify-content-center fotos__north">
@@ -46,7 +46,7 @@ export const Home=()=>{
                 <div className="col-12 col-md-5 col-lg-4 col-xl-4 col-xxl-4 d-flex  justify-content-center flex-column texto__sillas">
                     <h2>Sillas Gamer</h2>
                     <h4>Línea Drift</h4>
-                    <Link to="/sillas"><span>Ver más</span></Link><hr/>
+                    <Link to="/drift"><span>Ver más</span></Link><hr/>
                 </div>
                 <div className="col-xl-1 col-xxl-1"></div>
             </div>

@@ -16,8 +16,8 @@ export const Navbar =()=>{
                 <div className="col-12 col-md-10 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center nav_acomodo">
                     <ul className="navbar-nav flex-row">
                         <Link to="/rayban" style={{textDecoration:"none"}}><li className="nav-item li__items"><span id="btn__anteojos">Rayban</span></li></Link>
-                        <Link to="/camperas" style={{textDecoration:"none"}}><li className="nav-item li__items"><span id="btn__camperas">Northface</span></li></Link>
-                        <Link to="/sillas" style={{textDecoration:"none"}}><li className="nav-item li__items"><span id="btn__sillas">Drift</span></li></Link>
+                        <Link to="/northface" style={{textDecoration:"none"}}><li className="nav-item li__items"><span id="btn__camperas">Northface</span></li></Link>
+                        <Link to="/drift" style={{textDecoration:"none"}}><li className="nav-item li__items"><span id="btn__sillas">Drift</span></li></Link>
                     </ul>
                 </div>
 

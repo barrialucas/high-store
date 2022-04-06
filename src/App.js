@@ -21,8 +21,8 @@ export default function App() {
         <Route path="/" element={<Home/>}/>
 
         <Route path="/rayban" element={<ItemsContainer/>}/>
-        <Route path="/camperas" element={<Camperas/>}/>
-        <Route path="/sillas" element={<Sillas/>}/>
+        <Route path="/northface" element={<Camperas/>}/>
+        <Route path="/drift" element={<Sillas/>}/>
 
       </Routes>
 
