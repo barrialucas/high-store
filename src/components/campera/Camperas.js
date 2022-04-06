@@ -8,8 +8,13 @@ import medidaFCon from "../../img/camperas/medidasF-con.png"
 import medidaMSin from "../../img/camperas/medidasM-SIN.png"
 import medidaFSin from "../../img/camperas/medidasF-SIN.png"
 
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 export const Camperas =()=>{
+
+    
+
     return(
     <div>
             <section id="camperas" className="container-fluid">
@@ -45,11 +50,11 @@ export const Camperas =()=>{
                 <div className="col-lg-10 col-xl-10 col-xxl-10">
                     <div className="row">
                         <div className="col-lg-12 col-xl-6 col-xxl-6 medida1 d-flex justify-content-center align-items-center flex-column">
-                            <img src={medidaMCon} alt=""/>
+                            <Zoom><img className="zoom" src={medidaMCon} alt=""/></Zoom>
                             <h3 className="">Medida de talles Masculinos CON capucha</h3>
                         </div>
                         <div className="col-lg-12 col-lg-1 col-xl-6 col-xxl-6 medida2 d-flex justify-content-center align-items-center flex-column">
-                            <img src={medidaFCon} alt=""/>
+                            <Zoom><img className="zoom" src={medidaFCon} alt=""/></Zoom>
                             <h3 className="">Medida de talles Femeninos CON capucha</h3>
                         </div>
                     </div>
@@ -74,11 +79,11 @@ export const Camperas =()=>{
                 <div className="col-lg-10 col-xl-10 col-xxl-10">
                     <div className="row">
                         <div className="col-12 col-lg-12 col-xl-6 col-xxl-6 medida1 d-flex justify-content-center align-items-center flex-column">
-                            <img src={medidaMSin} alt=""/>
+                            <Zoom><img className="zoom" src={medidaMSin} alt=""/></Zoom>
                             <h3 className="">Medida de talles Masculinos SIN capucha</h3>
                         </div>
                         <div className="col-12 col-lg-12 col-xl-6 col-xxl-6 medida2 d-flex justify-content-center align-items-center flex-column">
-                            <img src={medidaFSin} alt=""/>
+                            <Zoom><img className="zoom" src={medidaFSin} alt=""/></Zoom>
                             <h3 className="">Medida de talles Femeninos SIN capucha</h3>
                         </div>
                     </div>

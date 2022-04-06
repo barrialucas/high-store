@@ -32,7 +32,7 @@
         font-size: 23px;
     }
     footer .footer .medios__segunda{
-        margin-top: 90px;
+        margin-top: 100px;
     }
     header .li__items {
         span{
@@ -112,7 +112,7 @@
     footer{
         .footer{
             .medios__segunda{
-                margin-top: 90px;
+                margin-top: 110px;
             }
             
             .footer__derecha{
@@ -193,7 +193,6 @@
         margin-top: 10px;
     }
     .usdtmedia{
-        margin-top: 10px;
         img{
             width: 30px;
         }
@@ -202,7 +201,7 @@
         }
     }
     .footer .medios__segunda{
-        margin-top: 79px;
+        margin-top: 85px;
     }
     .primer__renglon{
         font-size: 22px;
@@ -548,6 +547,7 @@
             .primer__renglon{
                 font-size: 19px;
                 text-align: center;
+                margin-bottom: 10px;
             }
             .get{
                 width: 200px;
@@ -564,7 +564,7 @@
             
             .footer__derecha{
                 .footer__iconos{
-                    padding-left: 50px;
+                    padding-left: 30px;
                 }
                 
                 img{
@@ -572,6 +572,7 @@
                     margin: auto;
                 }
                 .high{
+                    margin-left: 37px;
                         display: flex;
                         justify-content: center;
                         align-items: center;
@@ -580,11 +581,10 @@
                     }
                 }
                 .whats{
-                    
-                        .texto-wsp{
-                            font-size: 15px;
-                            margin-top: 7px;
-                        }
+                    .texto-wsp{
+                        font-size: 15px;
+                        margin-top: 7px;
+                    }
                 }
             }
         }

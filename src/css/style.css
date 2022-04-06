@@ -82,17 +82,13 @@ footer .footer .primer__renglon {
   color: #f9f6e5;
 }
 
-footer .footer .usdtmedia {
-  margin-top: 10px;
-}
-
 footer .footer .usdt {
   color: #f9f6e5;
   margin-left: 20PX;
 }
 
 footer .footer .medios__segunda {
-  margin-top: 60px;
+  margin-top: 70px;
 }
 
 footer .footer .mercadopago {
@@ -881,7 +877,7 @@ button {
     font-size: 23px;
   }
   footer .footer .medios__segunda {
-    margin-top: 90px;
+    margin-top: 100px;
   }
   header .li__items span {
     -webkit-text-decoration: underline #00382F;
@@ -936,7 +932,7 @@ button {
     font-size: 26px;
   }
   footer .footer .medios__segunda {
-    margin-top: 90px;
+    margin-top: 110px;
   }
   footer .footer .footer__derecha img {
     margin: 0px 0px;
@@ -997,9 +993,6 @@ button {
     width: 130px;
     margin-top: 10px;
   }
-  footer .usdtmedia {
-    margin-top: 10px;
-  }
   footer .usdtmedia img {
     width: 30px;
   }
@@ -1007,7 +1000,7 @@ button {
     font-size: 25px;
   }
   footer .footer .medios__segunda {
-    margin-top: 79px;
+    margin-top: 85px;
   }
   footer .primer__renglon {
     font-size: 22px;
@@ -1322,6 +1315,7 @@ button {
   footer .footer .primer__renglon {
     font-size: 19px;
     text-align: center;
+    margin-bottom: 10px;
   }
   footer .footer .get {
     width: 200px;
@@ -1334,13 +1328,14 @@ button {
     margin-top: 5px;
   }
   footer .footer .footer__derecha .footer__iconos {
-    padding-left: 50px;
+    padding-left: 30px;
   }
   footer .footer .footer__derecha img {
     width: 100px;
     margin: auto;
   }
   footer .footer .footer__derecha .high {
+    margin-left: 37px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
