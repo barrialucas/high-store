@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./css/style.css";
+import ReactGA from 'react-ga';
 
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 
@@ -10,9 +11,18 @@ import {Camperas} from "./components/campera/Camperas"
 import {Sillas} from "./components/Sillas"
 import {ItemsContainer} from "./components/Lentes/ItemsContainer"
 
+import ReactGa from "react-ga"
+
 
 
 export default function App() {
+
+  useEffect(()=>{
+    React.initialize("G-GHZSR8ZQNL")
+
+    ReactGa.pageview("/")
+  },[])
+
   return (
     <BrowserRouter>
       <Navbar/>
