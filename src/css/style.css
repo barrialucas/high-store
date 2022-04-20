@@ -456,10 +456,13 @@ footer .footer .medios__img h3 {
 }
 
 #anteojos .items .precioHtml {
-  font-size: 25px;
+  font-size: 22px;
   font-family: "Space Mono", monospace;
-  font-weight: 600;
+  font-weight: 500;
   margin-top: 10px;
+  color: #303030;
+  -webkit-text-decoration: line-through rgba(163, 66, 66, 0.575);
+          text-decoration: line-through rgba(163, 66, 66, 0.575);
 }
 
 #anteojos .items .card-btn {
@@ -519,6 +522,18 @@ footer .footer .medios__img h3 {
   width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.newPrice {
+  font-family: "Space Mono", monospace;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.off15 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: rgba(255, 0, 0, 0.322);
 }
 
 button {
@@ -1193,6 +1208,21 @@ button {
   #home .seccion3 .texto__sillas h4 {
     font-size: 20px;
     margin-right: 190px;
+  }
+  #anteojos .precios {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   #anteojos .fondo__lentes {
     margin-top: 220px;

@@ -419,6 +419,12 @@
         }
     }
     #anteojos{
+        .precios{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
         .fondo__lentes{
             margin-top: 220px;
             margin-bottom: 10px;

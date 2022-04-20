@@ -91,10 +91,12 @@
     
     .items{
       .precioHtml{
-        font-size: 25px;
+        font-size: 22px;
         font-family: $space;
-        font-weight: 600;
+        font-weight: 500;
         margin-top: 10px;
+        color:rgb(48, 48, 48);
+        text-decoration: line-through rgba(163, 66, 66, 0.575);
       }
       .card-btn {
         font-family: $monse;
@@ -151,6 +153,18 @@
             object-fit: contain;
         }
     }
+}
+
+.newPrice{
+  font-family: $space;
+  font-weight: 600;
+  font-size: 25px;
+  
+}
+.off15{
+  font-family: $monse;
+  font-size: 20px;
+  color: rgba(255, 0, 0, 0.322);
 }
 
 button {
