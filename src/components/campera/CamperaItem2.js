@@ -5,7 +5,7 @@ export const CamperaItem2=()=>{
   
   return(
     <motion.div className="slider-container">
-      <motion.div className="slider" drag="x" dragConstraints={{right:0, left:-2420}}>
+      <motion.div className="slider" drag="x" dragConstraints={{right:0, left:-3350}}>
         {campArr2.map(foto=>(
           <motion.div className="item">
             <img src={foto} alt="" />

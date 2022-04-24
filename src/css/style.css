@@ -175,7 +175,7 @@ footer .footer .medios__img h3 {
 }
 
 #home .home__fondo1 {
-  background-image: url(../img/fondos/fondo1.webp);
+  background-image: url(https://i.postimg.cc/JnkC0rHy/fondo1.webp);
   height: 1000px;
   width: 100%;
   border-radius: 20px;
@@ -234,7 +234,7 @@ footer .footer .medios__img h3 {
 #home .seccion2 .north1 {
   height: 420px;
   width: 420px;
-  background-image: url(../img/fondos/north1-min.jpg);
+  background-image: url(https://i.postimg.cc/L8CcVYzY/north1-min.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   margin-right: 20px;
@@ -244,7 +244,7 @@ footer .footer .medios__img h3 {
 #home .seccion2 .north2 {
   height: 420px;
   width: 280px;
-  background-image: url(../img/fondos/north2-min.jpg);
+  background-image: url(https://i.postimg.cc/CKRWrhNv/north2-min.jpg);
   background-size: cover;
   margin-left: 20px;
   border-radius: 10px;
@@ -343,7 +343,7 @@ footer .footer .medios__img h3 {
 #home .seccion3 .silla1 {
   height: 420px;
   width: 420px;
-  background-image: url(../img/fondos/silla2-min.png);
+  background-image: url(https://i.postimg.cc/XvBzc2jm/silla2-min.png);
   background-position: 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -354,7 +354,7 @@ footer .footer .medios__img h3 {
 #home .seccion3 .silla2 {
   height: 420px;
   width: 280px;
-  background-image: url(../img/fondos/silla3-min.png);
+  background-image: url(https://i.postimg.cc/4yPLNqP7/silla3-min.png);
   background-size: cover;
   margin-right: 20px;
   border-radius: 10px;
@@ -812,6 +812,49 @@ button {
 #camperas .slider-container {
   margin: 0 auto;
   overflow-x: hidden;
+}
+
+#camperas .btn__camp button {
+  margin-left: 20px;
+  width: 300px;
+  height: 45px;
+  font-size: 25px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #1b1b1b;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  position: relative;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 1;
+}
+
+#camperas .btn__camp button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 12px;
+  height: 100%;
+  background-color: #BF3585;
+  z-index: -1;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#camperas .btn__camp button:hover::before {
+  width: 100%;
+}
+
+#camperas .btn__camp button:hover {
+  color: black;
+}
+
+#camperas .btn__camp button:active:before {
+  background: #9e4e4e;
 }
 
 #camperas .camp {
@@ -1280,7 +1323,7 @@ button {
             justify-content: center;
   }
   #camperas .pedidos__texto h3 {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: -100px;
   }
   #camperas .camp {
@@ -1309,6 +1352,10 @@ button {
   }
   #camperas .medidas-capucha .medida2 h3 {
     font-size: 16px;
+  }
+  #camperas .slider-container {
+    margin: 50 auto;
+    overflow-x: hidden;
   }
   .fondo__silla {
     margin-top: 220px;

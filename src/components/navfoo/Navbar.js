@@ -22,8 +22,8 @@ export const Navbar =()=>{
                 </div>
 
                 <div className="col-12 col-md-2 col-lg-2 col-xl-2 col-xxl-3 d-flex justify-content-center align-items center">
-                    <a href="https://www.instagram.com/high.store_9410/"><i className="fab fa-instagram"></i></a>
-                    <a href="https://api.whatsapp.com/send?phone=542901580214&text=Hola%20deseo%20mas%20informaci%C3%B3n%20acerca%20de:"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://bit.ly/3rK52Ve"><i className="fab fa-instagram"></i></a>
+                    <a href="https://bit.ly/3xUEch3"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </div>
         </nav>

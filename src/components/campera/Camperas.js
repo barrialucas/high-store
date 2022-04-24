@@ -23,13 +23,16 @@ export const Camperas =()=>{
                 
             </div>
 
-            <div className="row pedidos">
-                <div className="col-xxl-12 d-flex justify-content-center pedidos__espacio">
-                    <div className="pedidos__texto"><h3>Pedidos por encargo </h3>
-                    <h4>Próximamente en stock</h4></div>
-                    
+            <div className="row pedidos ">
+                <div className="col-xxl-12 d-flex justify-content-center pedidos__espacio ">
+                    <div className="pedidos__texto">
+                        <h3>Pedidos por encargo </h3>
+                        <h4>Próximamente en stock</h4>
+                        <div className="d-flex justify-content-center btn__camp"><a href="https://bit.ly/3Mt0SJ2"><button >Consultar Modelos</button></a></div>
+                    </div>
                 </div>
             </div>
+            
 
             <div className="row ">
             <div className="col-lg-1 col-xl-1col-xxl-1"></div>
@@ -90,6 +93,7 @@ export const Camperas =()=>{
                 </div>
                 <div className="col-lg-1 col-xl-1 col-xxl-1"></div>
             </div>
+            
             
 
         </section>
