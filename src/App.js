@@ -1,5 +1,5 @@
 import "./css/style.css";
-import { BrowserRouter, Routes, Route} from "react-router-dom";
+import { BrowserRouter, Routes, Route,Navigate} from "react-router-dom";
 import {Navbar} from "./components/navfoo/Navbar"
 import {Footer} from "./components/navfoo/Footer"
 import {Home} from "./components/Home"
@@ -21,6 +21,7 @@ export default function App() {
         <Route path="/northface" element={<Camperas/>}/>
         <Route path="/drift" element={<Sillas/>}/>
 
+        <Route path="*" element={ <Navigate to="/"/>} />
       </Routes>
 
       <Footer/>
