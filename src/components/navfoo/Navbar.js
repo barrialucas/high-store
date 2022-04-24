@@ -22,7 +22,7 @@ export const Navbar =()=>{
                 </div>
 
                 <div className="col-12 col-md-2 col-lg-2 col-xl-2 col-xxl-3 d-flex justify-content-center align-items center">
-                    <a href="https://bit.ly/3rK52Ve"><i className="fab fa-instagram"></i></a>
+                    <a href="https://bit.ly/3rK52Ve" target="_blank"><i className="fab fa-instagram"></i></a>
                     <a href="https://bit.ly/3xUEch3"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </div>
