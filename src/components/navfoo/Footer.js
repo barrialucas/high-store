@@ -47,12 +47,12 @@ export const Footer=()=>{
                     </div>
                     <div className="footer__iconos col-8 col-md-8 col-lg-8 col-xl-7 col-xxl-7">
                         <div className="d-flex flex-row high align-items-center">
-                            <a href="https://bit.ly/3rK52Ve" ><i class="fab fa-instagram"></i></a>
-                            <a href="https://bit.ly/3rK52Ve">high.store_9410</a>
+                            <a href="https://bit.ly/3rK52Ve" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                            <a href="https://bit.ly/3rK52Ve" target="_blank" rel="noopener noreferrer">high.store_9410</a>
                         </div>
                         <div class="d-flex flex-row whats">
-                            <a className="logo-wsp" href="https://bit.ly/3xUEch3" ><i class="fab fa-whatsapp"></i></a>
-                            <a className="texto-wsp" href="https://bit.ly/3xUEch3" >2901580214</a>
+                            <a className="logo-wsp" href="https://bit.ly/3xUEch3" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+                            <a className="texto-wsp" href="https://bit.ly/3xUEch3" target="_blank" rel="noopener noreferrer">2901580214</a>
                         </div>
                     </div>
                 </div>

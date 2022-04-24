@@ -28,7 +28,7 @@ export const Camperas =()=>{
                     <div className="pedidos__texto">
                         <h3>Pedidos por encargo </h3>
                         <h4>Próximamente en stock</h4>
-                        <div className="d-flex justify-content-center btn__camp"><a href="https://bit.ly/3Mt0SJ2"><button >Consultar Modelos</button></a></div>
+                        <div className="d-flex justify-content-center btn__camp"><a href="https://bit.ly/3Mt0SJ2" target="_blank" rel="noopener noreferrer"><button >Consultar Modelos</button></a></div>
                     </div>
                 </div>
             </div>

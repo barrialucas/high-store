@@ -15,7 +15,7 @@ export const Lentes =({id, marca,modelo,precio,color,img,hover})=>{
                                 </div>
                                 
                                 <div className="d-flex justify-content-center">
-                                    <a class="card-btn d-flex justify-content-center" href={mensaje}>Contactarse</a>
+                                    <a class="card-btn d-flex justify-content-center" href={mensaje} target="_blank" rel="noopener noreferrer">Contactarse</a>
                                 </div>
                             </div>
     )

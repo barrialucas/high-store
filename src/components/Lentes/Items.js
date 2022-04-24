@@ -11,7 +11,7 @@ export const Items=({arrAnte})=>{
                     <div className="col-xxl-1"></div>
                     <div className="col-12 col-xxl-10 d-flex justify-content-center align-items-start conocer__row">
                         <h3>Conocer mas modelos por encargo</h3>
-                        <a href="https://bit.ly/3k6Nzlv"><button>Contacto</button></a>
+                        <a href="https://bit.ly/3k6Nzlv" target="_blank" rel="noopener noreferrer"><button>Contacto</button></a>
                     </div>
                     <div className="col-xxl-1"></div>
                 </div>

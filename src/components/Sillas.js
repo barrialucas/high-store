@@ -35,7 +35,7 @@ export const Sillas =()=>{
 
                 <div className="row boton">
                     <div className="col-xxl-4"></div>
-                    <div className="col-xxl-4 btn__silla d-flex justify-content-center"><a href="https://bit.ly/39dG1eB"><button>Contacto</button></a></div>
+                    <div className="col-xxl-4 btn__silla d-flex justify-content-center"><a href="https://bit.ly/39dG1eB" target="_blank" rel="noopener noreferrer"><button>Contacto</button></a></div>
                     <div className="col-xxl-4"></div>
                 </div>
 
