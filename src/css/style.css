@@ -175,7 +175,7 @@ footer .footer .medios__img h3 {
 }
 
 #home .home__fondo1 {
-  background-image: url(https://i.postimg.cc/JnkC0rHy/fondo1.webp);
+  background-image: url(../img/fondos/fondo1.webp);
   height: 1000px;
   width: 100%;
   border-radius: 20px;
@@ -364,7 +364,7 @@ footer .footer .medios__img h3 {
 
 #anteojos .fondo__lentes {
   height: 200px;
-  background-image: url(../img/fondos/lentes1-min.jpg);
+  background-image: url(https://i.postimg.cc/q7r3jq4r/lentes1-min.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: center;
@@ -598,7 +598,7 @@ button {
 
 .fondo__silla {
   height: 200px;
-  background-image: url(../img/fondos/sillafondo-min.jpg);
+  background-image: url(https://i.postimg.cc/dQhj770N/sillafondo-min.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 80%;
@@ -872,7 +872,7 @@ button {
 
 #camperas .fondo__camperas {
   height: 200px;
-  background-image: url(../img/fondos/northface-min.jpg);
+  background-image: url(https://i.postimg.cc/76Wb8Z8f/northface-min.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 86%;
