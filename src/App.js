@@ -18,7 +18,7 @@ export default function App() {
         <Route path="/" element={<Home/>}/>
 
         <Route path="/rayban" element={<ItemsContainer/>}/>
-        <Route path="/northface" element={<Camperas/>}/>
+        {/* <Route path="/northface" element={<Camperas/>}/> */}
         <Route path="/drift" element={<Sillas/>}/>
 
         <Route path="*" element={ <Navigate to="/"/>} />
