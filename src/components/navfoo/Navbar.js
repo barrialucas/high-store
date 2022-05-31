@@ -18,7 +18,7 @@ export const Navbar =()=>{
                     <ul className="navbar-nav flex-row">
                         
                         <Link to="/rayban" style={{textDecoration:"none"}}><li className="nav-item li__items"><span id="btn__anteojos">Rayban</span></li></Link>
-                        {/* <Link to="/northface" style={{textDecoration:"none"}}><li className="nav-item li__items"><span id="btn__camperas">Northface</span></li></Link> */}
+                        
                         <Link to="/drift" style={{textDecoration:"none"}}><li className="nav-item li__items"><span id="btn__sillas">Drift</span></li></Link>
                     </ul>
                 </div>
